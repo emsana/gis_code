@@ -7,8 +7,10 @@ output:
 
 
 
-```{r, out.width='25%', fig.align='center', fig.cap='QGIS Map'}
+```{r, out.width='25%', fig.align='center', fig.cap='QGIS Map', echo=FALSE}
 knitr::include_graphics('QGIS_MAP.png')
+
+
 ```
 ```{r, echo=FALSE}
 htmltools::includeHTML("RStudio_MAP.html")
